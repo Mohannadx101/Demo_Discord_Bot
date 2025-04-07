@@ -87,7 +87,7 @@ function timeCon(time) {
       });
 //help
 client.on('message', message => {
-if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
+if (message.content.startsWith(prefix + 'help')) { 
   message.reply('Sent In Dms')
     let pages = [`**
         ***__General orders__***
@@ -183,7 +183,7 @@ Owner : 💎 |Mrzizx#1030
 
 
 client.on('message', message => {
-if (message.content.startsWith(prefix + 'helpAr')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
+if (message.content.startsWith(prefix + 'helpAr')) {
     message.reply('تم ارسالة فى الخاص')
     let pages = [`**
         ***__General orders__***
@@ -369,8 +369,6 @@ mentionned.send(`:credit_card: | Transfer Receipt \`\`\`\`You have received ${ar
 
 
 
-//stats
-//اول شي npm i fortnite  
 client.on("message", message => {
     const Client = require('fortnite')
     const fortnite = new Client("dfd2877d-2ebf-4629-8ecf-2e93d5b12886")
@@ -421,14 +419,7 @@ client.on("message", message => {
 
 
 
-//creditss
-
-
-
-
-
-//clear
-var prefix = "-";//Put the prefix
+var prefix = "-";
 
 client.on('message', function(message) {
  if(message.author.bot) return;
@@ -521,12 +512,6 @@ let norelden = new Discord.RichEmbed()
 });
 
 
-//stats2
-
-
-
-
-//moveall
 client.on('message', message => {
  if(message.author.bot) return;
 if(message.content.startsWith(prefix + 'moveall')) {
@@ -810,27 +795,6 @@ client.on('message', message => {
 });
 
 
-//log
-
-
-
-
-
-
-
-//credit
-
-
-
-
-
-
-
-//pic id
-
-
-
-//giveaway
 
 var prefix = "-";
 
